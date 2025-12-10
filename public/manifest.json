@@ -1,0 +1,16 @@
+{
+  "name": "KinderCam",
+  "short_name": "KinderCam",
+  "description": "Learn by looking! Point your camera at anything and discover.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9E6",
+  "theme_color": "#0EA5E9",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}
