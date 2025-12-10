@@ -1,14 +1,24 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import { LearningMode } from '@/types/app';
+import { ModeSelector } from '@/components/ModeSelector';
+import { CameraView } from '@/components/CameraView';
 
 const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
+  const [mode, setMode] = useState<LearningMode | null>(null);
+
+  const handleSelectMode = (selectedMode: LearningMode) => {
+    setMode(selectedMode);
+  };
+
+  const handleBack = () => {
+    setMode(null);
+  };
+
+  if (mode) {
+    return <CameraView mode={mode} onBack={handleBack} />;
+  }
+
+  return <ModeSelector onSelectMode={handleSelectMode} />;
 };
 
 export default Index;
