@@ -23,7 +23,7 @@ export function ModeSelector({
         <div className="inline-flex items-center justify-center w-24 h-24 bg-card rounded-3xl shadow-card mb-6 animate-wiggle">
           <span className="text-5xl">📸</span>
         </div>
-        <h1 className="text-5xl font-black text-foreground mb-3 tracking-tight">
+        <h1 className="text-5xl font-black text-foreground mb-3 tracking-tight font-mono text-center">
           KinderCam
         </h1>
         <p className="text-xl text-muted-foreground font-semibold">
@@ -42,13 +42,13 @@ export function ModeSelector({
         {/* Preschooler Mode */}
         <button onClick={() => onSelectMode('preschooler')} className="w-full p-6 bg-card rounded-3xl shadow-card hover:shadow-lg transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] border-4 border-transparent hover:border-sunshine group">
           <div className="flex items-center gap-5">
-            <div className="w-20 h-20 bg-sunshine/20 rounded-2xl flex items-center justify-center group-hover:bg-sunshine/30 transition-colors text-sky-700">
+            <div className="w-20 h-20 rounded-2xl flex items-center justify-center transition-colors text-sky-700 bg-lavender">
               <Baby className="w-10 h-10 text-accent" />
             </div>
             <div className="text-left flex-1">
               <div className="flex items-center gap-2 mb-1">
                 <h3 className="text-2xl font-bold text-foreground">Preschooler</h3>
-                <span className="px-2 py-0.5 bg-sunshine/20 rounded-full text-sm font-bold text-accent">
+                <span className="px-2 py-0.5 rounded-full text-sm font-bold text-accent bg-lavender">
                   Ages 3-5
                 </span>
               </div>
