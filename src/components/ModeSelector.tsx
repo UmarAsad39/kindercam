@@ -1,19 +1,22 @@
 import { LearningMode } from '@/types/app';
 import { Button } from '@/components/ui/button';
 import { Baby, GraduationCap, Sparkles } from 'lucide-react';
-
 interface ModeSelectorProps {
   onSelectMode: (mode: LearningMode) => void;
 }
-
-export function ModeSelector({ onSelectMode }: ModeSelectorProps) {
-  return (
-    <div className="min-h-screen gradient-sky flex flex-col items-center justify-center p-6">
+export function ModeSelector({
+  onSelectMode
+}: ModeSelectorProps) {
+  return <div className="min-h-screen gradient-sky flex flex-col items-center justify-center p-6">
       {/* Floating decorations */}
       <div className="absolute top-10 left-10 w-16 h-16 bg-sunshine rounded-full opacity-60 animate-float" />
       <div className="absolute top-20 right-16 w-10 h-10 bg-coral rounded-full opacity-50 animate-bounce-slow" />
-      <div className="absolute bottom-32 left-20 w-12 h-12 bg-lavender rounded-full opacity-50 animate-float" style={{ animationDelay: '1s' }} />
-      <div className="absolute bottom-20 right-24 w-8 h-8 bg-grass rounded-full opacity-60 animate-bounce-slow" style={{ animationDelay: '0.5s' }} />
+      <div className="absolute bottom-32 left-20 w-12 h-12 bg-lavender rounded-full opacity-50 animate-float" style={{
+      animationDelay: '1s'
+    }} />
+      <div className="absolute bottom-20 right-24 w-8 h-8 bg-grass rounded-full opacity-60 animate-bounce-slow" style={{
+      animationDelay: '0.5s'
+    }} />
 
       {/* Logo and Title */}
       <div className="text-center mb-12 animate-slide-up">
@@ -29,18 +32,17 @@ export function ModeSelector({ onSelectMode }: ModeSelectorProps) {
       </div>
 
       {/* Mode Selection */}
-      <div className="w-full max-w-md space-y-4 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+      <div className="w-full max-w-md space-y-4 animate-slide-up" style={{
+      animationDelay: '0.2s'
+    }}>
         <p className="text-center text-muted-foreground font-semibold mb-6">
           Choose your learning mode:
         </p>
 
         {/* Preschooler Mode */}
-        <button
-          onClick={() => onSelectMode('preschooler')}
-          className="w-full p-6 bg-card rounded-3xl shadow-card hover:shadow-lg transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] border-4 border-transparent hover:border-sunshine group"
-        >
+        <button onClick={() => onSelectMode('preschooler')} className="w-full p-6 bg-card rounded-3xl shadow-card hover:shadow-lg transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] border-4 border-transparent hover:border-sunshine group">
           <div className="flex items-center gap-5">
-            <div className="w-20 h-20 bg-sunshine/20 rounded-2xl flex items-center justify-center group-hover:bg-sunshine/30 transition-colors">
+            <div className="w-20 h-20 bg-sunshine/20 rounded-2xl flex items-center justify-center group-hover:bg-sunshine/30 transition-colors text-sky-700">
               <Baby className="w-10 h-10 text-accent" />
             </div>
             <div className="text-left flex-1">
@@ -66,10 +68,7 @@ export function ModeSelector({ onSelectMode }: ModeSelectorProps) {
         </button>
 
         {/* Early Learner Mode */}
-        <button
-          onClick={() => onSelectMode('early-learner')}
-          className="w-full p-6 bg-card rounded-3xl shadow-card hover:shadow-lg transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] border-4 border-transparent hover:border-primary group"
-        >
+        <button onClick={() => onSelectMode('early-learner')} className="w-full p-6 bg-card rounded-3xl shadow-card hover:shadow-lg transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] border-4 border-transparent hover:border-primary group">
           <div className="flex items-center gap-5">
             <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center group-hover:bg-primary/20 transition-colors">
               <GraduationCap className="w-10 h-10 text-primary" />
@@ -98,9 +97,10 @@ export function ModeSelector({ onSelectMode }: ModeSelectorProps) {
       </div>
 
       {/* Footer */}
-      <p className="mt-12 text-muted-foreground text-sm font-medium animate-slide-up" style={{ animationDelay: '0.4s' }}>
+      <p className="mt-12 text-muted-foreground text-sm font-medium animate-slide-up" style={{
+      animationDelay: '0.4s'
+    }}>
         Parent/sibling assist mode for guided learning
       </p>
-    </div>
-  );
+    </div>;
 }
