@@ -19,19 +19,20 @@ export default {
   				'sans-serif'
   			],
   			sans: [
-  				'Roboto',
+  				'Lato',
   				'ui-sans-serif',
   				'system-ui',
   				'-apple-system',
   				'BlinkMacSystemFont',
   				'Segoe UI',
+  				'Roboto',
   				'Helvetica Neue',
   				'Arial',
   				'Noto Sans',
   				'sans-serif'
   			],
   			serif: [
-  				'Libre Caslon Text',
+  				'EB Garamond',
   				'ui-serif',
   				'Georgia',
   				'Cambria',
@@ -40,7 +41,7 @@ export default {
   				'serif'
   			],
   			mono: [
-  				'Roboto Mono',
+  				'Fira Code',
   				'ui-monospace',
   				'SFMono-Regular',
   				'Menlo',
@@ -161,7 +162,7 @@ export default {
   					opacity: '1'
   				}
   			},
-  			'pop': {
+  			pop: {
   				'0%': {
   					transform: 'scale(1)'
   				},
@@ -178,7 +179,7 @@ export default {
   			'accordion-up': 'accordion-up 0.2s ease-out',
   			'scale-in': 'scale-in 0.3s ease-out',
   			'slide-up': 'slide-up 0.4s ease-out',
-  			'pop': 'pop 0.3s ease-out'
+  			pop: 'pop 0.3s ease-out'
   		},
   		boxShadow: {
   			'2xs': 'var(--shadow-2xs)',
