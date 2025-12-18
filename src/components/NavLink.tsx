@@ -16,10 +16,10 @@ const NavLink = forwardRef<HTMLAnchorElement, NavLinkCompatProps>(
       <RouterNavLink
         ref={ref}
         to={to}
-        className={({ isActive, isPending }) => {
+        className={({ isActive, isPending, isTransitioning }) => {
           const baseClassName =
             typeof className === "function"
-              ? className({ isActive, isPending })
+              ? className({ isActive, isPending, isTransitioning })
               : className;
 
           return cn(baseClassName, isActive && activeClassName, isPending && pendingClassName);

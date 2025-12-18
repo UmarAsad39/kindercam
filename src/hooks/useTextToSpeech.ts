@@ -26,15 +26,21 @@ export function useTextToSpeech() {
     utterance.pitch = 1.1;
     utterance.volume = 1;
 
-    // Try to use a friendly voice
+    // Try to use a Bangla voice
     const voices = window.speechSynthesis.getVoices();
     const preferredVoice = voices.find(v => 
-      v.name.includes('Samantha') || 
-      v.name.includes('Google') || 
-      v.lang.startsWith('en')
+      v.lang.startsWith('bn') || 
+      v.lang.includes('bn-BD') || 
+      v.lang.includes('bn-IN') ||
+      v.name.toLowerCase().includes('bangla') ||
+      v.name.toLowerCase().includes('bengali')
     );
     if (preferredVoice) {
       utterance.voice = preferredVoice;
+      utterance.lang = preferredVoice.lang;
+    } else {
+      // Fallback to setting the language even without a specific voice
+      utterance.lang = 'bn-BD';
     }
 
     utterance.onstart = () => setIsSpeaking(true);
