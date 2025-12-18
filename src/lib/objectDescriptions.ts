@@ -1,304 +1,304 @@
-// Fun, educational descriptions for detected objects
+// Fun, educational descriptions for detected objects in Bangla
 export const objectDescriptions: Record<string, { simple: string; detailed: string }> = {
   person: {
-    simple: "A person!",
-    detailed: "This is a person - a human being just like you! People come in all shapes, sizes, and colors."
+    simple: "একজন মানুষ!",
+    detailed: "এটি একজন মানুষ - তোমার মতোই একজন মানব! মানুষ সব আকার, আকৃতি এবং রঙে আসে।"
   },
   bicycle: {
-    simple: "A bicycle!",
-    detailed: "This is a bicycle - it has two wheels and pedals. You can ride it to go places!"
+    simple: "একটি সাইকেল!",
+    detailed: "এটি একটি সাইকেল - এতে দুটি চাকা এবং প্যাডেল আছে। তুমি এটায় চড়ে জায়গায় জায়গায় যেতে পারো!"
   },
   car: {
-    simple: "A car!",
-    detailed: "This is a car - a vehicle with four wheels that can take you places quickly."
+    simple: "একটি গাড়ি!",
+    detailed: "এটি একটি গাড়ি - চারটি চাকা বিশিষ্ট যান যা তোমাকে দ্রুত জায়গায় নিয়ে যেতে পারে।"
   },
   motorcycle: {
-    simple: "A motorcycle!",
-    detailed: "This is a motorcycle - like a bicycle but with an engine. It goes vroom vroom!"
+    simple: "একটি মোটরসাইকেল!",
+    detailed: "এটি একটি মোটরসাইকেল - সাইকেলের মতো কিন্তু ইঞ্জিন আছে। এটি ভুমভুম করে!"
   },
   airplane: {
-    simple: "An airplane!",
-    detailed: "This is an airplane - it can fly high up in the sky and take people to faraway places."
+    simple: "একটি বিমান!",
+    detailed: "এটি একটি বিমান - এটি আকাশে উঁচুতে উড়তে পারে এবং মানুষদের দূরের জায়গায় নিয়ে যেতে পারে।"
   },
   bus: {
-    simple: "A bus!",
-    detailed: "This is a bus - a big vehicle that can carry many people at once."
+    simple: "একটি বাস!",
+    detailed: "এটি একটি বাস - একটি বড় গাড়ি যা একসাথে অনেক মানুষ বহন করতে পারে।"
   },
   train: {
-    simple: "A train!",
-    detailed: "This is a train - it travels on tracks and can be very long with many cars."
+    simple: "একটি ট্রেন!",
+    detailed: "এটি একটি ট্রেন - এটি রেললাইনে চলে এবং অনেক বগি নিয়ে খুব লম্বা হতে পারে।"
   },
   truck: {
-    simple: "A truck!",
-    detailed: "This is a truck - a big vehicle used to carry heavy things from place to place."
+    simple: "একটি ট্রাক!",
+    detailed: "এটি একটি ট্রাক - একটি বড় গাড়ি যা ভারী জিনিস এক জায়গা থেকে অন্য জায়গায় নিয়ে যায়।"
   },
   boat: {
-    simple: "A boat!",
-    detailed: "This is a boat - it floats on water and can take you across lakes and oceans."
+    simple: "একটি নৌকা!",
+    detailed: "এটি একটি নৌকা - এটি পানিতে ভাসে এবং তোমাকে হ্রদ ও সমুদ্র পার করাতে পারে।"
   },
   bird: {
-    simple: "A bird!",
-    detailed: "This is a bird - it has feathers and wings. Many birds can fly through the sky!"
+    simple: "একটি পাখি!",
+    detailed: "এটি একটি পাখি - এর পালক এবং ডানা আছে। অনেক পাখি আকাশে উড়তে পারে!"
   },
   cat: {
-    simple: "A cat! Meow!",
-    detailed: "This is a cat - a furry pet that says meow. Cats love to play and sleep."
+    simple: "একটি বিড়াল! মিউ!",
+    detailed: "এটি একটি বিড়াল - লোমশ পোষা প্রাণী যে মিউ করে। বিড়ালরা খেলতে এবং ঘুমাতে ভালোবাসে।"
   },
   dog: {
-    simple: "A dog! Woof!",
-    detailed: "This is a dog - a furry friend that says woof. Dogs are loyal and love to play!"
+    simple: "একটি কুকুর! ঘেউ!",
+    detailed: "এটি একটি কুকুর - লোমশ বন্ধু যে ঘেউ করে। কুকুররা বিশ্বস্ত এবং খেলতে ভালোবাসে!"
   },
   horse: {
-    simple: "A horse!",
-    detailed: "This is a horse - a big animal that people can ride. Horses eat hay and grass."
+    simple: "একটি ঘোড়া!",
+    detailed: "এটি একটি ঘোড়া - একটি বড় প্রাণী যার উপর মানুষ চড়তে পারে। ঘোড়া খড় এবং ঘাস খায়।"
   },
   sheep: {
-    simple: "A sheep! Baa!",
-    detailed: "This is a sheep - a fluffy animal that gives us wool for sweaters. It says baa!"
+    simple: "একটি ভেড়া! ব্যা!",
+    detailed: "এটি একটি ভেড়া - লোমশ প্রাণী যা সোয়েটারের জন্য পশম দেয়। এটি ব্যা করে!"
   },
   cow: {
-    simple: "A cow! Moo!",
-    detailed: "This is a cow - a farm animal that gives us milk. It says moo!"
+    simple: "একটি গরু! হাম্বা!",
+    detailed: "এটি একটি গরু - খামারের প্রাণী যা দুধ দেয়। এটি হাম্বা করে!"
   },
   elephant: {
-    simple: "An elephant!",
-    detailed: "This is an elephant - a very big animal with a long trunk and big ears."
+    simple: "একটি হাতি!",
+    detailed: "এটি একটি হাতি - খুব বড় প্রাণী যার লম্বা শুঁড় এবং বড় কান আছে।"
   },
   bear: {
-    simple: "A bear!",
-    detailed: "This is a bear - a big, furry animal. Some bears love honey!"
+    simple: "একটি ভালুক!",
+    detailed: "এটি একটি ভালুক - বড়, লোমশ প্রাণী। কিছু ভালুক মধু খুব পছন্দ করে!"
   },
   zebra: {
-    simple: "A zebra!",
-    detailed: "This is a zebra - like a horse but with black and white stripes!"
+    simple: "একটি জেব্রা!",
+    detailed: "এটি একটি জেব্রা - ঘোড়ার মতো কিন্তু কালো এবং সাদা ডোরা আছে!"
   },
   giraffe: {
-    simple: "A giraffe!",
-    detailed: "This is a giraffe - the tallest animal with a very long neck to reach high leaves."
+    simple: "একটি জিরাফ!",
+    detailed: "এটি একটি জিরাফ - সবচেয়ে লম্বা প্রাণী যার খুব লম্বা গলা উঁচু পাতায় পৌঁছাতে পারে।"
   },
   backpack: {
-    simple: "A backpack!",
-    detailed: "This is a backpack - a bag you wear on your back to carry things like books and toys."
+    simple: "একটি ব্যাকপ্যাক!",
+    detailed: "এটি একটি ব্যাকপ্যাক - পিঠে বহন করার ব্যাগ যাতে বই এবং খেলনা রাখা যায়।"
   },
   umbrella: {
-    simple: "An umbrella!",
-    detailed: "This is an umbrella - it keeps you dry when it rains. Open it up over your head!"
+    simple: "একটি ছাতা!",
+    detailed: "এটি একটি ছাতা - বৃষ্টিতে তোমাকে শুকনো রাখে। মাথার উপর খোলো!"
   },
   handbag: {
-    simple: "A handbag!",
-    detailed: "This is a handbag - a bag to carry important things like keys and wallets."
+    simple: "একটি হ্যান্ডব্যাগ!",
+    detailed: "এটি একটি হ্যান্ডব্যাগ - চাবি এবং মানিব্যাগের মতো গুরুত্বপূর্ণ জিনিস বহন করার ব্যাগ।"
   },
   tie: {
-    simple: "A tie!",
-    detailed: "This is a tie - worn around the neck to look fancy for special occasions."
+    simple: "একটি টাই!",
+    detailed: "এটি একটি টাই - বিশেষ অনুষ্ঠানে সুন্দর দেখতে গলায় পরা হয়।"
   },
   suitcase: {
-    simple: "A suitcase!",
-    detailed: "This is a suitcase - a big bag with wheels to pack clothes when you travel."
+    simple: "একটি স্যুটকেস!",
+    detailed: "এটি একটি স্যুটকেস - চাকা লাগানো বড় ব্যাগ যাতে ভ্রমণে কাপড় প্যাক করা হয়।"
   },
   frisbee: {
-    simple: "A frisbee!",
-    detailed: "This is a frisbee - a flying disc you throw back and forth with friends!"
+    simple: "একটি ফ্রিসবি!",
+    detailed: "এটি একটি ফ্রিসবি - উড়ন্ত চাকতি যা বন্ধুদের সাথে ছুড়ে খেলা হয়!"
   },
   skis: {
-    simple: "Skis!",
-    detailed: "These are skis - long boards you wear on your feet to slide on snow."
+    simple: "স্কি!",
+    detailed: "এগুলো স্কি - লম্বা বোর্ড যা পায়ে পরে বরফে স্লাইড করা হয়।"
   },
   snowboard: {
-    simple: "A snowboard!",
-    detailed: "This is a snowboard - a board for sliding down snowy mountains."
+    simple: "একটি স্নোবোর্ড!",
+    detailed: "এটি একটি স্নোবোর্ড - বরফের পাহাড়ে স্লাইড করার বোর্ড।"
   },
   "sports ball": {
-    simple: "A ball!",
-    detailed: "This is a ball - round and bouncy, perfect for playing games!"
+    simple: "একটি বল!",
+    detailed: "এটি একটি বল - গোল এবং বাউন্সি, খেলার জন্য উপযুক্ত!"
   },
   kite: {
-    simple: "A kite!",
-    detailed: "This is a kite - it flies in the sky when the wind blows. Hold the string tight!"
+    simple: "একটি ঘুড়ি!",
+    detailed: "এটি একটি ঘুড়ি - বাতাস বইলে আকাশে ওড়ে। সুতো শক্ত করে ধরো!"
   },
   "baseball bat": {
-    simple: "A baseball bat!",
-    detailed: "This is a baseball bat - used to hit the ball in a baseball game."
+    simple: "একটি বেসবল ব্যাট!",
+    detailed: "এটি একটি বেসবল ব্যাট - বেসবল খেলায় বল মারতে ব্যবহার হয়।"
   },
   "baseball glove": {
-    simple: "A baseball glove!",
-    detailed: "This is a baseball glove - worn on your hand to catch the ball."
+    simple: "একটি বেসবল গ্লাভ!",
+    detailed: "এটি একটি বেসবল গ্লাভ - হাতে পরে বল ধরতে হয়।"
   },
   skateboard: {
-    simple: "A skateboard!",
-    detailed: "This is a skateboard - a board with wheels for doing cool tricks!"
+    simple: "একটি স্কেটবোর্ড!",
+    detailed: "এটি একটি স্কেটবোর্ড - চাকা লাগানো বোর্ড দিয়ে দারুণ কৌশল দেখানো যায়!"
   },
   surfboard: {
-    simple: "A surfboard!",
-    detailed: "This is a surfboard - for riding ocean waves. Hang ten!"
+    simple: "একটি সার্ফবোর্ড!",
+    detailed: "এটি একটি সার্ফবোর্ড - সমুদ্রের ঢেউয়ে চড়ার জন্য।"
   },
   "tennis racket": {
-    simple: "A tennis racket!",
-    detailed: "This is a tennis racket - used to hit the tennis ball back and forth."
+    simple: "একটি টেনিস র‍্যাকেট!",
+    detailed: "এটি একটি টেনিস র‍্যাকেট - টেনিস বল এদিক ওদিক মারতে ব্যবহার হয়।"
   },
   bottle: {
-    simple: "A bottle!",
-    detailed: "This is a bottle - used to hold water or other drinks."
+    simple: "একটি বোতল!",
+    detailed: "এটি একটি বোতল - পানি বা অন্যান্য পানীয় রাখতে ব্যবহার হয়।"
   },
   "wine glass": {
-    simple: "A glass!",
-    detailed: "This is a glass - a container for drinking water or juice."
+    simple: "একটি গ্লাস!",
+    detailed: "এটি একটি গ্লাস - পানি বা জুস পান করার পাত্র।"
   },
   cup: {
-    simple: "A cup!",
-    detailed: "This is a cup - for drinking hot cocoa or your favorite drink."
+    simple: "একটি কাপ!",
+    detailed: "এটি একটি কাপ - গরম কোকো বা তোমার পছন্দের পানীয় পান করতে।"
   },
   fork: {
-    simple: "A fork!",
-    detailed: "This is a fork - used to pick up food and bring it to your mouth."
+    simple: "একটি কাঁটা চামচ!",
+    detailed: "এটি একটি কাঁটা চামচ - খাবার তুলে মুখে নিতে ব্যবহার হয়।"
   },
   knife: {
-    simple: "A knife!",
-    detailed: "This is a knife - used to cut food into smaller pieces."
+    simple: "একটি ছুরি!",
+    detailed: "এটি একটি ছুরি - খাবার ছোট টুকরো করতে ব্যবহার হয়।"
   },
   spoon: {
-    simple: "A spoon!",
-    detailed: "This is a spoon - perfect for eating soup or ice cream!"
+    simple: "একটি চামচ!",
+    detailed: "এটি একটি চামচ - স্যুপ বা আইসক্রিম খেতে দারুণ!"
   },
   bowl: {
-    simple: "A bowl!",
-    detailed: "This is a bowl - a round dish for holding cereal, soup, or snacks."
+    simple: "একটি বাটি!",
+    detailed: "এটি একটি বাটি - সিরিয়াল, স্যুপ বা স্ন্যাকস রাখার গোল পাত্র।"
   },
   banana: {
-    simple: "A banana!",
-    detailed: "This is a banana - a yellow fruit that's sweet and healthy. Yummy!"
+    simple: "একটি কলা!",
+    detailed: "এটি একটি কলা - হলুদ ফল যা মিষ্টি এবং স্বাস্থ্যকর। সুস্বাদু!"
   },
   apple: {
-    simple: "An apple!",
-    detailed: "This is an apple - a crunchy fruit that can be red, green, or yellow."
+    simple: "একটি আপেল!",
+    detailed: "এটি একটি আপেল - কড়মড়ে ফল যা লাল, সবুজ বা হলুদ হতে পারে।"
   },
   sandwich: {
-    simple: "A sandwich!",
-    detailed: "This is a sandwich - bread with yummy things inside like cheese or peanut butter."
+    simple: "একটি স্যান্ডউইচ!",
+    detailed: "এটি একটি স্যান্ডউইচ - রুটির মধ্যে পনির বা পিনাট বাটারের মতো সুস্বাদু জিনিস।"
   },
   orange: {
-    simple: "An orange!",
-    detailed: "This is an orange - a round fruit full of sweet juice. It's orange colored!"
+    simple: "একটি কমলা!",
+    detailed: "এটি একটি কমলা - গোল ফল যাতে মিষ্টি রস আছে। এটি কমলা রঙের!"
   },
   broccoli: {
-    simple: "Broccoli!",
-    detailed: "This is broccoli - a green vegetable that looks like tiny trees. Very healthy!"
+    simple: "ব্রকলি!",
+    detailed: "এটি ব্রকলি - সবুজ সবজি যা ছোট গাছের মতো দেখায়। খুব স্বাস্থ্যকর!"
   },
   carrot: {
-    simple: "A carrot!",
-    detailed: "This is a carrot - an orange vegetable that rabbits love. Good for your eyes!"
+    simple: "একটি গাজর!",
+    detailed: "এটি একটি গাজর - কমলা রঙের সবজি যা খরগোশরা পছন্দ করে। চোখের জন্য ভালো!"
   },
   "hot dog": {
-    simple: "A hot dog!",
-    detailed: "This is a hot dog - a sausage in a bun. A classic picnic food!"
+    simple: "একটি হট ডগ!",
+    detailed: "এটি একটি হট ডগ - বানে সসেজ। পিকনিকের ক্লাসিক খাবার!"
   },
   pizza: {
-    simple: "Pizza!",
-    detailed: "This is pizza - a round, flat bread with cheese and toppings. Delicious!"
+    simple: "পিৎজা!",
+    detailed: "এটি পিৎজা - গোল, সমতল রুটিতে পনির এবং টপিং। সুস্বাদু!"
   },
   donut: {
-    simple: "A donut!",
-    detailed: "This is a donut - a sweet, round treat with a hole in the middle!"
+    simple: "একটি ডোনাট!",
+    detailed: "এটি একটি ডোনাট - মিষ্টি, গোল খাবার যার মাঝখানে গর্ত!"
   },
   cake: {
-    simple: "A cake!",
-    detailed: "This is a cake - a sweet dessert often eaten on birthdays. Make a wish!"
+    simple: "একটি কেক!",
+    detailed: "এটি একটি কেক - মিষ্টি ডেজার্ট যা জন্মদিনে খাওয়া হয়। ইচ্ছা করো!"
   },
   chair: {
-    simple: "A chair!",
-    detailed: "This is a chair - furniture for sitting down. It has a seat and a back."
+    simple: "একটি চেয়ার!",
+    detailed: "এটি একটি চেয়ার - বসার আসবাবপত্র। এর একটি আসন এবং পিঠ আছে।"
   },
   couch: {
-    simple: "A couch!",
-    detailed: "This is a couch - soft furniture where many people can sit together."
+    simple: "একটি সোফা!",
+    detailed: "এটি একটি সোফা - নরম আসবাবপত্র যেখানে অনেকে একসাথে বসতে পারে।"
   },
   "potted plant": {
-    simple: "A plant!",
-    detailed: "This is a plant - a living thing that grows in soil and needs water and sunlight."
+    simple: "একটি গাছ!",
+    detailed: "এটি একটি গাছ - জীবন্ত জিনিস যা মাটিতে বাড়ে এবং পানি ও সূর্যালোক দরকার।"
   },
   bed: {
-    simple: "A bed!",
-    detailed: "This is a bed - where you sleep at night and have sweet dreams."
+    simple: "একটি বিছানা!",
+    detailed: "এটি একটি বিছানা - রাতে যেখানে ঘুমাও এবং মিষ্টি স্বপ্ন দেখো।"
   },
   "dining table": {
-    simple: "A table!",
-    detailed: "This is a table - furniture with a flat top where you eat meals or play."
+    simple: "একটি টেবিল!",
+    detailed: "এটি একটি টেবিল - সমতল উপরিভাগ বিশিষ্ট আসবাবপত্র যেখানে খাবার খাওয়া বা খেলা হয়।"
   },
   toilet: {
-    simple: "A toilet!",
-    detailed: "This is a toilet - found in the bathroom. Always remember to flush!"
+    simple: "একটি টয়লেট!",
+    detailed: "এটি একটি টয়লেট - বাথরুমে থাকে। সবসময় ফ্লাশ করতে মনে রেখো!"
   },
   tv: {
-    simple: "A TV!",
-    detailed: "This is a television - a screen that shows cartoons, movies, and shows."
+    simple: "একটি টিভি!",
+    detailed: "এটি একটি টেলিভিশন - স্ক্রিন যাতে কার্টুন, সিনেমা এবং শো দেখায়।"
   },
   laptop: {
-    simple: "A laptop!",
-    detailed: "This is a laptop - a small computer you can carry around and use anywhere."
+    simple: "একটি ল্যাপটপ!",
+    detailed: "এটি একটি ল্যাপটপ - ছোট কম্পিউটার যা বহন করা যায় এবং যেকোনো জায়গায় ব্যবহার করা যায়।"
   },
   mouse: {
-    simple: "A mouse!",
-    detailed: "This is a computer mouse - you move it to control the pointer on the screen."
+    simple: "একটি মাউস!",
+    detailed: "এটি একটি কম্পিউটার মাউস - স্ক্রিনে পয়েন্টার নিয়ন্ত্রণ করতে নড়াচড়া করো।"
   },
   remote: {
-    simple: "A remote!",
-    detailed: "This is a remote control - push the buttons to control the TV."
+    simple: "একটি রিমোট!",
+    detailed: "এটি একটি রিমোট কন্ট্রোল - টিভি নিয়ন্ত্রণ করতে বোতাম টিপো।"
   },
   keyboard: {
-    simple: "A keyboard!",
-    detailed: "This is a keyboard - it has many buttons with letters and numbers for typing."
+    simple: "একটি কীবোর্ড!",
+    detailed: "এটি একটি কীবোর্ড - এতে অক্ষর এবং সংখ্যার অনেক বোতাম আছে টাইপ করার জন্য।"
   },
   "cell phone": {
-    simple: "A phone!",
-    detailed: "This is a cell phone - a small device for calling people and playing games."
+    simple: "একটি ফোন!",
+    detailed: "এটি একটি সেল ফোন - ছোট যন্ত্র যা দিয়ে মানুষকে কল করা এবং গেম খেলা যায়।"
   },
   microwave: {
-    simple: "A microwave!",
-    detailed: "This is a microwave - a machine that heats up food quickly."
+    simple: "একটি মাইক্রোওয়েভ!",
+    detailed: "এটি একটি মাইক্রোওয়েভ - একটি যন্ত্র যা দ্রুত খাবার গরম করে।"
   },
   oven: {
-    simple: "An oven!",
-    detailed: "This is an oven - used to bake cookies, cakes, and cook dinner."
+    simple: "একটি ওভেন!",
+    detailed: "এটি একটি ওভেন - কুকি, কেক বেক করতে এবং রাতের খাবার রান্না করতে ব্যবহার হয়।"
   },
   toaster: {
-    simple: "A toaster!",
-    detailed: "This is a toaster - put bread in and it comes out warm and crispy!"
+    simple: "একটি টোস্টার!",
+    detailed: "এটি একটি টোস্টার - রুটি দাও এবং গরম ও কুড়কুড়ে হয়ে বের হয়!"
   },
   sink: {
-    simple: "A sink!",
-    detailed: "This is a sink - where you wash your hands with soap and water."
+    simple: "একটি সিঙ্ক!",
+    detailed: "এটি একটি সিঙ্ক - যেখানে সাবান এবং পানি দিয়ে হাত ধোয়া হয়।"
   },
   refrigerator: {
-    simple: "A fridge!",
-    detailed: "This is a refrigerator - it keeps food cold and fresh."
+    simple: "একটি ফ্রিজ!",
+    detailed: "এটি একটি রেফ্রিজারেটর - এটি খাবার ঠান্ডা এবং তাজা রাখে।"
   },
   book: {
-    simple: "A book!",
-    detailed: "This is a book - full of stories and pictures. Reading is fun!"
+    simple: "একটি বই!",
+    detailed: "এটি একটি বই - গল্প এবং ছবিতে ভরা। পড়া মজার!"
   },
   clock: {
-    simple: "A clock!",
-    detailed: "This is a clock - it tells you what time it is with numbers and hands."
+    simple: "একটি ঘড়ি!",
+    detailed: "এটি একটি ঘড়ি - সংখ্যা এবং কাঁটা দিয়ে কত বাজে বলে দেয়।"
   },
   vase: {
-    simple: "A vase!",
-    detailed: "This is a vase - a container for holding pretty flowers."
+    simple: "একটি ফুলদানি!",
+    detailed: "এটি একটি ফুলদানি - সুন্দর ফুল রাখার পাত্র।"
   },
   scissors: {
-    simple: "Scissors!",
-    detailed: "These are scissors - used for cutting paper. Be careful, they're sharp!"
+    simple: "কাঁচি!",
+    detailed: "এগুলো কাঁচি - কাগজ কাটতে ব্যবহার হয়। সাবধান, ধারালো!"
   },
   "teddy bear": {
-    simple: "A teddy bear!",
-    detailed: "This is a teddy bear - a soft, cuddly toy perfect for hugging!"
+    simple: "একটি টেডি বিয়ার!",
+    detailed: "এটি একটি টেডি বিয়ার - নরম, আদরের খেলনা জড়িয়ে ধরার জন্য উপযুক্ত!"
   },
   "hair drier": {
-    simple: "A hair dryer!",
-    detailed: "This is a hair dryer - it blows warm air to dry wet hair."
+    simple: "একটি হেয়ার ড্রায়ার!",
+    detailed: "এটি একটি হেয়ার ড্রায়ার - ভেজা চুল শুকাতে গরম বাতাস দেয়।"
   },
   toothbrush: {
-    simple: "A toothbrush!",
-    detailed: "This is a toothbrush - use it with toothpaste to keep your teeth clean and shiny!"
+    simple: "একটি টুথব্রাশ!",
+    detailed: "এটি একটি টুথব্রাশ - টুথপেস্ট দিয়ে ব্যবহার করো দাঁত পরিষ্কার এবং চকচকে রাখতে!"
   }
 };
 
@@ -306,18 +306,97 @@ export function getObjectDescription(objectClass: string, mode: 'preschooler' | 
   const normalizedClass = objectClass.toLowerCase();
   const info = objectDescriptions[normalizedClass];
   
+  // Bangla names for objects
+  const banglaNames: Record<string, string> = {
+    person: "মানুষ",
+    bicycle: "সাইকেল",
+    car: "গাড়ি",
+    motorcycle: "মোটরসাইকেল",
+    airplane: "বিমান",
+    bus: "বাস",
+    train: "ট্রেন",
+    truck: "ট্রাক",
+    boat: "নৌকা",
+    bird: "পাখি",
+    cat: "বিড়াল",
+    dog: "কুকুর",
+    horse: "ঘোড়া",
+    sheep: "ভেড়া",
+    cow: "গরু",
+    elephant: "হাতি",
+    bear: "ভালুক",
+    zebra: "জেব্রা",
+    giraffe: "জিরাফ",
+    backpack: "ব্যাকপ্যাক",
+    umbrella: "ছাতা",
+    handbag: "হ্যান্ডব্যাগ",
+    tie: "টাই",
+    suitcase: "স্যুটকেস",
+    frisbee: "ফ্রিসবি",
+    skis: "স্কি",
+    snowboard: "স্নোবোর্ড",
+    "sports ball": "বল",
+    kite: "ঘুড়ি",
+    "baseball bat": "বেসবল ব্যাট",
+    "baseball glove": "বেসবল গ্লাভ",
+    skateboard: "স্কেটবোর্ড",
+    surfboard: "সার্ফবোর্ড",
+    "tennis racket": "টেনিস র‍্যাকেট",
+    bottle: "বোতল",
+    "wine glass": "গ্লাস",
+    cup: "কাপ",
+    fork: "কাঁটা চামচ",
+    knife: "ছুরি",
+    spoon: "চামচ",
+    bowl: "বাটি",
+    banana: "কলা",
+    apple: "আপেল",
+    sandwich: "স্যান্ডউইচ",
+    orange: "কমলা",
+    broccoli: "ব্রকলি",
+    carrot: "গাজর",
+    "hot dog": "হট ডগ",
+    pizza: "পিৎজা",
+    donut: "ডোনাট",
+    cake: "কেক",
+    chair: "চেয়ার",
+    couch: "সোফা",
+    "potted plant": "গাছ",
+    bed: "বিছানা",
+    "dining table": "টেবিল",
+    toilet: "টয়লেট",
+    tv: "টিভি",
+    laptop: "ল্যাপটপ",
+    mouse: "মাউস",
+    remote: "রিমোট",
+    keyboard: "কীবোর্ড",
+    "cell phone": "ফোন",
+    microwave: "মাইক্রোওয়েভ",
+    oven: "ওভেন",
+    toaster: "টোস্টার",
+    sink: "সিঙ্ক",
+    refrigerator: "ফ্রিজ",
+    book: "বই",
+    clock: "ঘড়ি",
+    vase: "ফুলদানি",
+    scissors: "কাঁচি",
+    "teddy bear": "টেডি বিয়ার",
+    "hair drier": "হেয়ার ড্রায়ার",
+    toothbrush: "টুথব্রাশ"
+  };
+  
   if (info) {
     return {
-      name: objectClass.charAt(0).toUpperCase() + objectClass.slice(1),
+      name: banglaNames[normalizedClass] || objectClass,
       description: mode === 'preschooler' ? info.simple : info.detailed
     };
   }
   
   // Default for unknown objects
   return {
-    name: objectClass.charAt(0).toUpperCase() + objectClass.slice(1),
+    name: banglaNames[normalizedClass] || objectClass,
     description: mode === 'preschooler' 
-      ? `I see a ${objectClass}!` 
-      : `This is a ${objectClass}. Can you tell me more about it?`
+      ? `আমি একটি ${objectClass} দেখছি!` 
+      : `এটি একটি ${objectClass}। তুমি কি এটি সম্পর্কে আরো বলতে পারো?`
   };
 }
